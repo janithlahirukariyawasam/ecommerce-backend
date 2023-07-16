@@ -1,4 +1,4 @@
-# Node.js Backend Project
+# ecommerce Backend Project
 
 This is a Node.js backend project that follows the MVC (Model-View-Controller) architecture.
 
