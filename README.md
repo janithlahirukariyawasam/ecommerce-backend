@@ -36,3 +36,7 @@ In the project directory, you can run the following scripts:
 - `npm test`: Runs the test suite.
 - `npm run lint`: Runs the linter to check for code style and formatting issues.
 - `npm run build`: Builds the project for production.
+
+## Contributers
+
+Hashan, Janith, Minol
