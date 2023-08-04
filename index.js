@@ -23,10 +23,10 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
+app.use("/product", productController);
+
 app.get('/',(req,res)=>{
     res.json("ecommerce backend")
 })
-
-
 
 app.listen(process.env.PORT, ()=>console.log('Server has started'))
