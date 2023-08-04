@@ -3,6 +3,7 @@ const dotenv = require('dotenv').config()
 const mongoose = require('mongoose')
 const cors = require('cors')
 const app = express()
+const productController = require("./controllers/productController");
 
 //connect to mongodb database
 async function connectToDatabase() {
