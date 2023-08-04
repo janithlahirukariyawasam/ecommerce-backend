@@ -39,4 +39,4 @@ In the project directory, you can run the following scripts:
 
 ## Contributers
 
-Hashan, Janith, Minol
+Hashan, Janith, Minol, Madushika, Chinthaka, Dinuka, Adshayan, Dinushi
