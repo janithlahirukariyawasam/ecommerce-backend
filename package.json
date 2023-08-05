@@ -1,32 +1,35 @@
 {
-  "name": "e-commerce-backend",
+  "name": "Hayroo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A E-commerce website.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start:dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janithlahirukariyawasam/E-Commerce-Backend.git"
+    "url": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce"
   },
-  "author": "",
+  "author": "Hasan | https://hasan-py.github.io",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/janithlahirukariyawasam/E-Commerce-Backend/issues"
+    "url": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce/issues"
   },
-  "homepage": "https://github.com/janithlahirukariyawasam/E-Commerce-Backend#readme",
+  "homepage": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce#readme",
   "dependencies": {
-    "bcrypt": "^5.1.0",
-    "cookie-parser": "^1.4.6",
+    "bcryptjs": "^2.4.3",
+    "braintree": "^3.0.0",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.1",
-    "mongoose": "^7.3.4",
-    "multer": "^1.4.5-lts.1",
-    "nodemailer": "^6.9.4",
-    "nodemon": "^3.0.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "npm": "^6.14.8"
   }
 }
