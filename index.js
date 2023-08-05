@@ -22,10 +22,11 @@ async function connectToDatabase() {
   
 connectToDatabase();
 
-//middlewares
+
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
+
 
 app.use('/images', express.static('public/images'));
 app.use("/auth", authController);
